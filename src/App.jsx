@@ -1,5 +1,6 @@
 import { ConfirmPass } from "./components/ConfirmPass";
 import { DisableSubmit } from "./components/DisableSubmit";
+import { Figma } from "./components/Figma";
 import { TogglePassword } from "./components/TogglePassword";
 import { Tweet } from "./components/Tweet";
 import "./styles.css";
@@ -11,6 +12,7 @@ export default function App() {
       <ConfirmPass />
       <DisableSubmit />
       <TogglePassword />
+      <Figma />
     </div>
   );
 }
