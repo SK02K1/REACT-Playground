@@ -3,7 +3,7 @@ import { useState } from "react";
 export const TogglePassword = () => {
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
   return (
-    <div>
+    <div className="container">
       <h2>05. Toggle Password</h2>
       <input
         type={isPasswordVisible ? "text" : "password"}

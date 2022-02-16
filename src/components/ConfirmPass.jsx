@@ -4,7 +4,7 @@ export const ConfirmPass = () => {
   const [password, setPassword] = useState("");
   const [confirmPass, setConfirmPass] = useState("");
   return (
-    <div>
+    <div className="container">
       <h2>02. Confirm Password</h2>
       <form>
         <input

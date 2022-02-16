@@ -11,7 +11,7 @@ export const Figma = () => {
   const [textAlign, setTextAlign] = useState(alignments[0]);
   const [fontSize, setFontSize] = useState(16);
   return (
-    <div>
+    <div className="container">
       <h2>06. Designer tool (mini figma)</h2>
 
       <label htmlFor="color">

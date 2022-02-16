@@ -7,7 +7,7 @@ export const DisableSubmit = () => {
     console.log(password);
   };
   return (
-    <div>
+    <div className="container">
       <h2>04. Disable Submit</h2>
       <input
         onChange={(e) => setPassword(e.target.value)}

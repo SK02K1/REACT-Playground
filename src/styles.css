@@ -20,3 +20,15 @@ label {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  border: 1px solid black;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 50%;
+  }
+}
