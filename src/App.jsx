@@ -1,3 +1,4 @@
+import { AddToCart } from "./components/AddToCart";
 import { ConfirmPass } from "./components/ConfirmPass";
 import { DisableSubmit } from "./components/DisableSubmit";
 import { Figma } from "./components/Figma";
@@ -13,6 +14,7 @@ export default function App() {
       <DisableSubmit />
       <TogglePassword />
       <Figma />
+      <AddToCart />
     </div>
   );
 }
