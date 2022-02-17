@@ -4,6 +4,7 @@ import { DarkMode } from "./components/DarkMode";
 import { DisableSubmit } from "./components/DisableSubmit";
 import { Figma } from "./components/Figma";
 import { ListLike } from "./components/ListLike";
+import { OutOfStock } from "./components/OutOfStock";
 import { SwitchTabs } from "./components/SwitchTabs";
 import { Todo } from "./components/Todo";
 import { TogglePassword } from "./components/TogglePassword";
@@ -23,6 +24,7 @@ export default function App() {
       <Todo />
       <DarkMode />
       <ListLike />
+      <OutOfStock />
     </div>
   );
 }
