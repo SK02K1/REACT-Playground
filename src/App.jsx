@@ -1,4 +1,5 @@
 import { AddToCart } from "./components/AddToCart";
+import { AlphaNumericPass } from "./components/AlphaNumericPass";
 import { ConfirmPass } from "./components/ConfirmPass";
 import { DarkMode } from "./components/DarkMode";
 import { DisableSubmit } from "./components/DisableSubmit";
@@ -16,6 +17,7 @@ export default function App() {
     <div className="App">
       <Tweet />
       <ConfirmPass />
+      <AlphaNumericPass />
       <DisableSubmit />
       <TogglePassword />
       <Figma />
