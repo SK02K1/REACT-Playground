@@ -1,5 +1,6 @@
 import { AddToCart } from "./components/AddToCart";
 import { ConfirmPass } from "./components/ConfirmPass";
+import { DarkMode } from "./components/DarkMode";
 import { DisableSubmit } from "./components/DisableSubmit";
 import { Figma } from "./components/Figma";
 import { SwitchTabs } from "./components/SwitchTabs";
@@ -19,6 +20,7 @@ export default function App() {
       <AddToCart />
       <SwitchTabs />
       <Todo />
+      <DarkMode />
     </div>
   );
 }
