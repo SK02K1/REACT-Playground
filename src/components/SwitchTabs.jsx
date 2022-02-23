@@ -24,15 +24,36 @@ const Profile = () => {
   );
 };
 
+const NotFound = () => {
+  return (
+    <div>
+      <h3>Not Found</h3>
+    </div>
+  );
+};
+
+const switchTab = (route) => {
+  switch (route) {
+    case "/":
+      return <Home />;
+    case "/profile":
+      return <Profile />;
+    case "/about":
+      return <About />;
+    default:
+      return <NotFound />;
+  }
+};
+
 export const SwitchTabs = () => {
-  const [Component, setComponent] = useState(null);
+  const [route, setRoute] = useState("/");
   return (
     <div className="container">
       <h2>08. Switch Tabs</h2>
-      <button onClick={() => setComponent(Home)}>Home</button>
-      <button onClick={() => setComponent(About)}>About</button>
-      <button onClick={() => setComponent(Profile)}>Profile</button>
-      <div className="container">{Component ?? "select tab ☝"}</div>
+      <button onClick={() => setRoute("/")}>Home</button>
+      <button onClick={() => setRoute("/about")}>About</button>
+      <button onClick={() => setRoute("/profile")}>Profile</button>
+      <div>{switchTab(route)}</div>
     </div>
   );
 };
